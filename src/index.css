@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Shippori+Mincho:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Noto Sans JP", sans-serif;
+  --font-sans: "Noto Sans JP", sans-serif;
+}
+
+@keyframes scale-spring {
+  0% { transform: scale(0.7) rotate(-5deg); opacity: 0; }
+  70% { transform: scale(1.1) rotate(-15deg); }
+  100% { transform: scale(1) rotate(-12deg); opacity: 1; }
+}
+
+@keyframes zoom-in {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-scale-spring {
+  animation: scale-spring 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-zoom-in {
+  animation: zoom-in 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
