@@ -489,6 +489,16 @@ export default function App() {
             <span>PROGRESS: {masteredChars.length} / {HIRAGANA_CHARACTERS.length + KATAKANA_CHARACTERS.length} CHARACTERS</span>
             <span>STREAK: {stats.streak} DAYS</span>
           </div>
+                    {/* Product Hunt Support Badge */}
+          
+          <div className="flex justify-center my-2 md:my-0 shadow-xs hover:scale-102 transition-all duration-200">
+            <a href="https://www.producthunt.com/products/onritsu-jlang?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-onritsu-jlang" target="_blank" rel="noopener noreferrer"
+              className="inline-block">
+              
+            <img alt="Onritsu-Jlang - Learn Japanese in Minimal way.  | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1179188&amp;theme=dark&amp;t=1782225300935"
+                referrerPolicy="no-referrer"
+                className="max-w-[210px] sm:max-w-[250px] h-auto object-contain"
+                /></a></div>         
           <div className="italic">Crafted in Geometric Balance.</div>
         </footer>
 
