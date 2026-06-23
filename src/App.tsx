@@ -491,7 +491,7 @@ export default function App() {
           </div>
                     {/* Product Hunt Support Badge */}
           
-          <div className="flex justify-center my-2 md:my-0 shadow-xs hover:scale-102 transition-all duration-200">
+          <div className="flex justify-center mt-6 mb-2 w-full shadow-xs hover:scale-102 transition-all duration-200">
             <a href="https://www.producthunt.com/products/onritsu-jlang?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-onritsu-jlang" target="_blank" rel="noopener noreferrer"
               className="inline-block">
               
