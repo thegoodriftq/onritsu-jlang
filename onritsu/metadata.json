@@ -1,6 +1,0 @@
-{
-  "name": "Japanese Letter Practice",
-  "description": "An elegant, minimal app to learn and practice writing Hiragana and Katakana characters with touch/mouse canvas tracing and real-time stroke validation.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
