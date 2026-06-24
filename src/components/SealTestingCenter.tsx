@@ -492,7 +492,7 @@ export const SealTestingCenter: React.FC<SealTestingCenterProps> = ({
             <div className="grid grid-cols-1 sm:grid-cols-5 gap-3 text-center text-[11px] font-sans">
               
               {/* Step 1 */}
-              <div className={`p-2 border rounded-sm flex flex-col justify-between ${isHiraComplete ? 'bg-green-50/40 border-green-200' : 'bg-amber-50/30 border-amber-200 animate-pulse'}`}>
+              <div className={`p-2 border rounded-sm flex flex-col justify-between ${isHiraComplete ? 'bg-green-50/40 border-green-200' : 'bg-amber-50/30 border-amber-200 '}`}>
                 <div>
                   <div className="font-semibold text-gray-400">Step 1</div>
                   <div className="font-serif font-bold text-[#1a1a1a]">ひらがな / Hiragana</div>
